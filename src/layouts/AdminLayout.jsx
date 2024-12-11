@@ -1,8 +1,11 @@
+import { Outlet } from "react-router-dom"
 
 const AdminLayout = () => 
 {
   return (
-    <div className="bg-green-600 h-screen">adminlayout</div>
+    <div className="">
+      <Outlet/>
+    </div>
   )
 }
 

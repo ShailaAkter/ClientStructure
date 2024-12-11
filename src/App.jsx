@@ -1,11 +1,11 @@
 import { Toaster } from "react-hot-toast"
-import AdminLayout from "./layouts/AdminLayout"
+import MainLayout from "./layouts/MainLayout"
 
 function App() 
 {
   return (
     <>
-      <AdminLayout/>
+      <MainLayout/>
       <Toaster/>
     </>
   )
